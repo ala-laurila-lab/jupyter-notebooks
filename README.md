@@ -1,7 +1,7 @@
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/ala-laurila-lab/information-theory/master)
 
 # Jupyter notebooks
-Collection of jupyter notebooks that link topics from information theory and optimization to analyses on neural codes.
+Collection of jupyter notebooks that link topics from information theory and optimization to analyses of neural codes.
 
 
 ## Information theory and spike trains
@@ -17,7 +17,14 @@ Based upon the lecture series given by [Ryan T](https://www.youtube.com/channel/
 Modified to fit the context of receptive field models.  
 * [**Part 1: Basic ideas and gradient descent**](https://nbviewer.jupyter.org/github/ala-laurila-lab/jupyter-notebooks/blob/master/ConvexOptimization/Part%201%2C%20basic%20ideas%20and%20gradient%20descent.ipynb)
 * [**Part 2: Proximal gradient method and L1 regularization**](https://nbviewer.jupyter.org/github/ala-laurila-lab/information-theory/blob/master/ConvexOptimization/Part%202%2C%20proximal%20gradient%20and%20L1%20regularisation.ipynb)
-* [**Part 3: Matrix completion and nuclear norm regularization**](https://nbviewer.jupyter.org/github/ala-laurila-lab/information-theory/blob/master/onvexOptimization/Part%203%2C%20Matrix%20completion%20and%20nuclear%20norm%20regularization.ipynb)
-* [**Part 4: Low-rank receptive field models**](https://nbviewer.jupyter.org/github/ala-laurila-lab/information-theory/blob/master/ConvexOptimization/Part%204%2C%20Low-rank%20receptive%20field%20models.ipynb)
+* [**Part 3: Matrix completion and nuclear norm regularization**](https://nbviewer.jupyter.org/github/ala-laurila-lab/jupyter-notebooks/blob/master/onvexOptimization/Part%203%2C%20Matrix%20completion%20and%20nuclear%20norm%20regularization.ipynb)
+* [**Part 4: Low-rank receptive field models**](https://nbviewer.jupyter.org/github/ala-laurila-lab/jupyter-notebooks/blob/master/ConvexOptimization/Part%204%2C%20Low-rank%20receptive%20field%20models.ipynb)
 
 ## Mixed topics
+Contributors: Johan Westö.  
+
+The temporal filters of receptive field models are sometimes presented wit a negative time axes and sometimes with a positive time axes. Here, we show that the difference lies in whether you interpret the filter as a stimulus template or as an inpulse response. 
+* [**Temporal filters and receptive fields**](https://nbviewer.jupyter.org/github/ala-laurila-lab/jupyter-notebooks/blob/master/MixedTopics/Temporal%20filters%20and%20receptive%20fields.ipynb)
+
+Linear regression is the standard initial tool for approximating a function that maps input data to output data. Here we show how that three different approaches/interpretations all lead to the same linear regression solution.
+* [**Three ways to interpret linear regression**](https://nbviewer.jupyter.org/github/ala-laurila-lab/jupyter-notebooks/blob/master/MixedTopics/Linear%20Regression.ipynb)
